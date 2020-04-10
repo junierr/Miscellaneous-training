@@ -15,10 +15,10 @@ def chaikin(xx,yy,num):
             plt.plot(prex, prey, color='r', markerfacecolor='blue', marker='o')
             plt.show()
             plt.pause(0.1)
-            x1 = (xx[i+1] + 2*xx[i]) / 3
-            y1 = (yy[i+1] + 2*yy[i]) / 3
-            x2 = (2*xx[i+1]+xx[i]) / 3
-            y2 = (2*yy[i+1]+yy[i]) / 3
+            x1 = (xx[i+1] + 3*xx[i]) / 4
+            y1 = (yy[i+1] + 3*yy[i]) / 4
+            x2 = (3*xx[i+1]+xx[i]) / 4
+            y2 = (3*yy[i+1]+yy[i]) / 4
             showx.append(x1)
             showy.append(y1)
             plt.plot(showx, showy, color='r', markerfacecolor='blue', marker='o')
