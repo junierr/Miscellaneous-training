@@ -364,7 +364,6 @@ class MarchingCubesVisualizer:
 		Generate and normalize a new random world using snoise4
 		"""
         # 等值面
-        print(self.t)
         for x in range(self.worldSize):
             for y in range(self.worldSize):
                 for z in range(self.worldSize):
